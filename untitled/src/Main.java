@@ -39,14 +39,14 @@ public class Main {
         System.out.println("Общая масса: " + totalWeight + " кг");
         var weightDifference = boxer2 - boxer1;
         System.out.println("Разница масс: " + weightDifference + " кг");
-                var totalHours = 640;
-                var hoursPerEmployee = 8;
-                var employees = totalHours / hoursPerEmployee;
-                System.out.println("Всего работников в компании — " + employees + " человек");
-                var newEmployees = employees + 94;
-                var newTotalHours = newEmployees * hoursPerEmployee;
-                System.out.println("Если в компании работает " + newEmployees +
-                        " человек, то всего " + newTotalHours +
-                        " часов работы может быть поделено между сотрудниками");
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var employees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + employees + " человек");
+        var newEmployees = employees + 94;
+        var newTotalHours = newEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + newEmployees +
+                " человек, то всего " + newTotalHours +
+                " часов работы может быть поделено между сотрудниками");
             }
         }
