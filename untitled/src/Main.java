@@ -39,6 +39,8 @@ public class Main {
         System.out.println("Общая масса: " + totalWeight + " кг");
         var weightDifference = boxer2 - boxer1;
         System.out.println("Разница масс: " + weightDifference + " кг");
+        var remainder = boxer2 % boxer1;
+        System.out.println("Остаток от деления: " + remainder);
         var totalHours = 640;
         var hoursPerEmployee = 8;
         var employees = totalHours / hoursPerEmployee;
